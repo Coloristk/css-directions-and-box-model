@@ -1,1 +1,18 @@
-/* Start coding here */
+body {
+    border: 16px solid lightgray;
+}
+
+.container {
+    width: auto;
+    height: 700px;
+    background: khaki;
+    border: 24px solid crimson ;
+    outline: 16px solid black;
+}
+
+h1 {
+    color: black;
+    margin: 30px;
+    font-size: 72px;
+    text-align: center;
+}
