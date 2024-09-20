@@ -1,1 +1,17 @@
 /* Start coding here */
+
+body{
+    border: 16px solid lightgrey;
+}
+.box-container{
+    width: auto;
+    height: 800px;
+    background-color: khaki;
+    border: 24px solid crimson;
+    outline: black;
+}
+h1{
+    font-size: 72px;
+    padding: 30px;
+    text-align: center;
+}
