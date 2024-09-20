@@ -1,18 +1,32 @@
-body {
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.outer-container {
+    height: 100vh;
     border: 16px solid lightgray;
 }
 
-.container {
-    width: auto;
-    height: 700px;
-    background: khaki;
-    border: 24px solid crimson ;
-    outline: 16px solid black;
+.inner-box  {
+    height: 100%;
+}
+
+.box-1 {
+    border: 16px solid black;
+}
+
+.box-2 {
+    border: 24px solid crimson;
+}
+
+.box-3 {
+    background-color: khaki;
 }
 
 h1 {
     color: black;
-    margin: 30px;
+    margin: 0;
     font-size: 72px;
     text-align: center;
 }
